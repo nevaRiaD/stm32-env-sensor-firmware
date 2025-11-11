@@ -1,0 +1,44 @@
+# ========================
+# STM32CubeIDE Project Ignore
+# ========================
+
+# Build directories
+/Debug/
+/Release/
+/build/
+/out/
+
+# STM32CubeIDE settings
+.settings/
+.cproject
+.project
+.mxproject
+*.launch
+*.stm32cubeide
+
+# Object and generated files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+
+# Backup and temporary files
+*~
+*.tmp
+*.bak
+*.swp
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: keep only IOC + source code
+# !*.ioc
+# !Core/**
+# !Drivers/**
+# !Middlewares/**
